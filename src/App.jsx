@@ -12,7 +12,7 @@ export default function WorldArteLanding() {
     window.open(url, '_blank')
   }
 
-  const DEFAULT_EMAIL = 'contato@worldarte.com.br'
+  const DEFAULT_EMAIL = 'contato@maker3dnatal.com.br'
   const openEmail = (form) => {
     const { subject, body } = formToEmail(form)
     const url = `mailto:${DEFAULT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
